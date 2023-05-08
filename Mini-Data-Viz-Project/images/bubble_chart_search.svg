@@ -330,7 +330,17 @@ font-family="Benton Sans Book" font-size="16" font-weight="400" font-style="norm
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
 font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
 >
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="530" y="344" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="583" y="348" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+ >64</text>
+</g>
+</g>
+
+<g  clip-path="url(#clip16)" 
+>
+<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
+>
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="540" y="371" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
  >reinforcement</text>
 </g>
 </g>
@@ -338,20 +348,10 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip16)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="558" y="371" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="563" y="393" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
  >learning</text>
-</g>
-</g>
-
-<g  clip-path="url(#clip16)" 
->
-<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
->
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="583" y="397" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
- >64</text>
 </g>
 </g>
 
@@ -360,7 +360,17 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
 font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
 >
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="553" y="201" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="570" y="203" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+ >53</text>
+</g>
+</g>
+
+<g  clip-path="url(#clip16)" 
+>
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="558" y="226" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
  >neural</text>
 </g>
 </g>
@@ -370,37 +380,27 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
 font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
 >
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="540" y="228" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
- >networks</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="445" y="93" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+ >61</text>
 </g>
 </g>
 
 <g  clip-path="url(#clip16)" 
 >
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="423" y="89" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
- >natural</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="393" y="116" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
+ >natural language</text>
 </g>
 </g>
 
 <g  clip-path="url(#clip16)" 
 >
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="415" y="116" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
- >language</text>
-</g>
-</g>
-
-<g  clip-path="url(#clip16)" 
->
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
->
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="408" y="142" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="416" y="138" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
  >processing</text>
 </g>
 </g>
@@ -410,28 +410,18 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
 font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
 >
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="193" y="95" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
- >machine learning</text>
-</g>
-</g>
-
-<g  clip-path="url(#clip16)" 
->
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
->
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="258" y="122" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="258" y="97" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
  >76</text>
 </g>
 </g>
 
 <g  clip-path="url(#clip16)" 
 >
-<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="43" y="208" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
- >deep learning</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="205" y="120" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
+ >machine learning</text>
 </g>
 </g>
 
@@ -440,8 +430,18 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
 font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
 >
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="92" y="235" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="93" y="210" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
  >72</text>
+</g>
+</g>
+
+<g  clip-path="url(#clip16)" 
+>
+<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
+>
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="53" y="233" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
+ >deep learning</text>
 </g>
 </g>
 
@@ -450,7 +450,17 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
 font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
 >
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="76" y="409" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="126" y="411" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+ >81</text>
+</g>
+</g>
+
+<g  clip-path="url(#clip16)" 
+>
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="86" y="434" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
  >data scientist</text>
 </g>
 </g>
@@ -460,17 +470,17 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
 font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
 >
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="126" y="436" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
- >81</text>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="334" y="452" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+ >82</text>
 </g>
 </g>
 
 <g  clip-path="url(#clip16)" 
 >
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="289" y="450" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="298" y="475" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
  >data analyst</text>
 </g>
 </g>
@@ -480,28 +490,18 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
 font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
 >
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="334" y="477" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
- >82</text>
-</g>
-</g>
-
-<g  clip-path="url(#clip16)" 
->
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
->
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="390" y="278" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
- >block chain</text>
-</g>
-</g>
-
-<g  clip-path="url(#clip16)" 
->
-<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
->
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="428" y="305" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="428" y="280" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
  >65</text>
+</g>
+</g>
+
+<g  clip-path="url(#clip16)" 
+>
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="398" y="303" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
+ >block chain</text>
 </g>
 </g>
 
@@ -510,7 +510,17 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
 font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
 >
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="214" y="278" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="258" y="268" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+ >59</text>
+</g>
+</g>
+
+<g  clip-path="url(#clip16)" 
+>
+<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
+>
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="223" y="291" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
  >big data and</text>
 </g>
 </g>
@@ -518,10 +528,10 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip16)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="246" y="305" font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
- >cloud</text>
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="207" y="313" font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
+ >cloud computing</text>
 </g>
 </g>
 
@@ -531,7 +541,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip17)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -542,7 +552,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip18)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -553,7 +563,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip19)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -564,7 +574,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip20)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -575,7 +585,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip21)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -586,7 +596,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip22)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -597,7 +607,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip23)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -608,7 +618,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip24)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -619,7 +629,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip25)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -630,7 +640,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip26)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -641,7 +651,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip27)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -652,7 +662,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip28)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -663,7 +673,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip29)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -674,7 +684,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip30)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -685,7 +695,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip31)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -696,7 +706,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip32)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -707,7 +717,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip33)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -718,7 +728,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip34)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -729,7 +739,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip35)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -740,7 +750,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip36)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -751,7 +761,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip37)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -762,7 +772,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip38)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -773,7 +783,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip39)" 
 >
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
@@ -781,7 +791,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip39)" 
 >
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 <polyline fill="none" vector-effect="none" points="551,485 507,453 " />
 </g>
@@ -790,7 +800,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip39)" 
 >
 <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 <path vector-effect="none" fill-rule="evenodd" d="M509,452 L503,450 L507,455 L509,452"/>
 </g>
@@ -799,7 +809,7 @@ font-family="Arial" font-size="19" font-weight="400" font-style="normal"
 <g  clip-path="url(#clip39)" 
 >
 <g fill="#000000" fill-opacity="0" stroke="none" transform="matrix(1,0,0,1,0,15)"
-font-family="Arial" font-size="19" font-weight="400" font-style="normal" 
+font-family="Arial" font-size="16" font-weight="400" font-style="normal" 
 >
 <rect x="461" y="485" width="180" height="69"/>
 </g>

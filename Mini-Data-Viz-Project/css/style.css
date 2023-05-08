@@ -45,6 +45,10 @@ body {
      font-weight: normal;
 }
 
+iframe{
+     border: none;
+}
+
 a {
      color: #1f1f1f;
      text-decoration: none !important;
@@ -745,10 +749,10 @@ button {
 }
 
 .test_icon {
-     display: flex;
+     display:flex;
      align-items: center;
      flex-wrap: wrap;
-     padding-top: 30px;
+     padding-top: 10px;
 }
 
 .test_icon i {
@@ -757,13 +761,13 @@ button {
 }
 
 .test_box h4 {
-     font-size: 17px;
+     font-size: 14px;
      color: #030305;
      line-height: 28px;
      display: block;
      font-weight: 500;
      text-align: left;
-     padding: 0px 0px 0px 13px;
+     padding: 0px 0px 0px 0px;
 }
 
 .yellow {
@@ -779,6 +783,19 @@ button {
      padding: 35px 30px;
      border-radius: 5px;
      font-weight: 400;
+}
+
+.flex-container {
+     display: flex;
+}
+
+.flex-child {
+     flex: 1.5;
+}
+
+.flex-child:first-child{
+     margin-right: 0px;
+     flex:0.35;
 }
 
 
@@ -1071,7 +1088,7 @@ ul.link_menu li a:hover {
 }
 
 .yellow_darkbg {
-     background: #f8c659;
+     background: #f0cd81dd;
      display: flex;
      justify-content: center;
      align-items: center;
