@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>selo</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout inner_header blog_page">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="images/Georgetown_logo_white.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item">
+                                 <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="Analytics.html">Analytics</a>
+                              </li>
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="Engine.html">Engine</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="Method.html">Methodologies</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="contact.html">Contact Me</a>
+                              </li>
+                              <li class="nav-item d_none">
+                                 <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <div class="yellow_darkbg">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Job Suggestions for You</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Model Introduction-->
+      <div class="team">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div class="team_img">
+                     <figure>
+                        <img src="images/LSH.png" width="2400px" height="2000px"/>
+                        <figcaption>Figure.6 - The signature matrix above is now divided into b bands of r rows each, and each band is hashed separately. The larger the b the less likely there will be another turple that matches all of the same permutations.</figcaption>
+                     </figure>
+                  </div>
+               </div>
+               <div class="col-md-6 offset-md-1">
+                  <div class="titlepage">
+                     <h2 id="model_intro">LSH Model Introduction</h2>
+                     <p>In general, Recommendation Engines are essentially looking to find items that share similarity. Locality-Sensitive Hashing (LSH) Recommendations is chose to construct job suggestion model for job seeker based on all the text information in the final model. The engine will be ruturning five propriate job positions based on keywords from input.</p>
+                     <p>There are two major types of Recommendation Engines: Content Based and Collaborative Filtering Engines. Content Based recommends only using information about the items being recommended. There is no information about the users. Content Based is using in this model.</p>
+                     <p>Collaborative Filtering takes advantage of user information. Generally speaking, the data contains likes or dislikes of every item every user has used. The likes and dislikes could be implicit like the fact that a user watched a whole movie or explicit like the user gave the movie a thumbs up or a good star rating.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      <!-- End Model Introduction-->
+      <!-- Model Embed-->
+      <div  class="services">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage">
+                     <h2 id="map">Gainning Your Job Suggestions by Engine</h2>
+                     <div class="col-md-6">
+                        <form id="request" class="main_form" action="/Mini-Data-Viz-Project/result.php">
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <input id="input" name="input" class="contactus1" placeholder="Keywords" type="text">
+                              </div>
+                              <div class="col-md-12" padding-top="5px">
+                                 <button class="send_btn" type="submit" onclick="submitForm()">Submit</button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                     <div class="col-md-6">
+                        <?php
+                        // Start of Python script
+                        $python = <<<PYTHON
+                        import pandas as pd
+                        df = pd.read_csv('2023-04-14-job-search/Clean_Data/combined_data_final.csv')
+                        import numpy as np
+                        import pandas as pd
+                        import re
+                        import time
+                        from datasketch import MinHash, MinHashLSHForest
+                        
+                        def preprocess(text):
+                            text = re.sub(r'http\S+', '', text)
+                            text = re.sub(r'[^\w\s]','',text)
+                            text = re.sub(r'\s\s+',' ',text)
+                            text = text.strip()
+                            tokens = text.lower()
+                            tokens = tokens.split()
+                            return tokens
+                        
+                        permutations = 128
+                        
+                        def get_forest(data, perms):
+                            start_time = time.time()
+                            minhash = []
+                            for text in data['text']:
+                                tokens = preprocess(text)
+                                m = MinHash(num_perm=perms)
+                                for s in tokens:
+                                    m.update(s.encode('utf8'))
+                                minhash.append(m) 
+                            forest = MinHashLSHForest(num_perm=perms)
+                            for i,m in enumerate(minhash):
+                                forest.add(i,m)  
+                            forest.index()
+                            print(' It took %s seconds to build forest.' %(time.time()-start_time))
+                            return forest
+                        
+                        def predict(text, database, perms, num_results, forest):
+                            start_time = time.time()
+                            tokens = preprocess(text)
+                            m = MinHash(num_perm=perms)
+                            for s in tokens:
+                                m.update(s.encode('utf8'))  
+                            idx_array = np.array(forest.query(m, num_results))
+                            if len(idx_array) == 0:
+                                return None
+                            result = database.iloc[idx_array]
+                            result = result[['title', 'company_name', 'location', 'via', 'description', 
+                                             'detected_extensions.schedule_type', 'detected_extensions.work_from_home',
+                                             'detected_extensions.posted_at', 'detected_extensions.salary',
+                                             'Qualifications', 'Responsibilities', 'Benefits'
+                                             ]]
+                            result.columns = ['Job Title', 'Company Name', 'Location', 'Platform', 'Description',
+                                              'Schedule Type', 'Work from Home', 'Posted at', 'Salary',
+                                              'Qualifications', 'Responsibilities', 'Benefits']
+                            
+                            print(' It took %s seconds to query forest.' %(time.time()-start_time))
+                            return result
+                        
+                        df['Responsibilities'] = df['Responsibilities'].fillna('')
+                        df['Benefits'] = df['Benefits'].fillna('')
+                        df['detected_extensions.schedule_type'] = df['detected_extensions.schedule_type'].fillna('')
+                        df['detected_extensions.work_from_home'] = df['detected_extensions.work_from_home'].fillna('')
+                        df['detected_extensions.posted_at'] = df['detected_extensions.posted_at'].fillna('')
+                        df['detected_extensions.salary'] = df['detected_extensions.salary'].fillna('')
+                        db = df
+                        db['text'] = df['title'] + ' ' + df['company_name'] + ' ' + df['location'] + ' ' + df['description'] + ' ' + df['Qualifications'] + ' ' + df['Responsibilities'] + ' ' + df['Benefits']
+                        forest = get_forest(db, permutations)
+                        
+                        num_recommendations = 5;
+                        $title = 'Data Analyst in DC';
+                        $result = predict($title, $db, $permutations, $num_recommendations, $forest);
+                        
+                        print('\n Top Recommendation(s) is(are) \n', result)
+                        PYTHON;
+                        
+                        // Execute the Python script
+                        $output = shell_exec("python -c '$python'");
+                        
+                        // Output the result
+                        echo $output;
+                        ?>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>  
+      <!-- End Modem Embed-->
+      <!-- blog -->
+      <div class="blog">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="blog_box">
+                     <figure><img src="images/Blog_img1.png" alt="#"/></figure>
+                     <h3>Seo marking</h3>
+                     <a class="read_more" href="#">Read More</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="blog_box">
+                     <figure><img src="images/Blog_img2.png" alt="#"/></figure>
+                     <h3>Seo marking</h3>
+                     <a class="read_more" href="#">Read More</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="blog_box">
+                     <figure><img src="images/Blog_img3.png" alt="#"/></figure>
+                     <h3>Seo marking</h3>
+                     <a class="read_more" href="#">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- blog -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <img class="logo1" src="images/logo1.png" alt="#"/>
+                     <ul class="about_us">
+                        <li>dolor sit amet, consectetur<br> magna aliqua. Ut enim ad <br>minim veniam, <br> quisdotempor incididunt r</li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <h3>Useful Link</h3>
+                     <ul class="link_menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About services</a></li>
+                        <li><a href="#">About Departments</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <h3>The Services</h3>
+                     <ul class="link_menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About services</a></li>
+                        <li><a href="#">About Departments</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <h3>Contact Us</h3>
+                     <ul class="link_menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About services</a></li>
+                        <li><a href="#">About Departments</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-8 offset-md-4 ">
+                     <form class="bottom_form">
+                        <h3>Newsletter</h3>
+                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                        <button class="sub_btn">subscribe</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-10 offset-md-1">
+                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html Templates</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
+
