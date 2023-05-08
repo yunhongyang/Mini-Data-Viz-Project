@@ -804,7 +804,6 @@ button {
 
 
 /** contact section **/
-
 .contact {
      background: url(../images/contact.png);
      background-repeat: no-repeat;
@@ -823,13 +822,13 @@ button {
      background: url(../images/con_cross.png);
      background-repeat: no-repeat;
      width: 100%;
-     height: 100%;
-     background-size: 100% 100%;
+     height: 90%;
+     background-size: 120% 100%;
 }
 
 .contact .titlepage {
      text-align: left;
-     padding-bottom: 107px;
+     padding-bottom: 20px;
 }
 
 .contact .titlepage h2 {
@@ -896,11 +895,15 @@ button {
 }
 
 .map figure {
-     margin: 0;
+     margin: 1;
 }
 
 .map figure img {
      width: 100%;
+     height: 100%;
+     position:relative;
+     left: +30%;
+     top: +50%;
 }
 
 

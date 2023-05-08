@@ -73,9 +73,6 @@
                               <li class="nav-item">
                                  <a class="nav-link" href="contact.html">Contact Me</a>
                               </li>
-                              <li class="nav-item d_none">
-                                 <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                              </li>
                            </ul>
                         </div>
                      </nav>
@@ -119,6 +116,7 @@
                </div>
             </div>
          </div>
+      </div>
       <!-- End Model Introduction-->
       <!-- Model Embed-->
       <div  class="services">
@@ -126,187 +124,63 @@
             <div class="row">
                <div class="col-md-10 offset-md-1">
                   <div class="titlepage">
-                     <h2 id="map">Gainning Your Job Suggestions by Engine</h2>
+                     <h2 id="model">Gainning Your Job Suggestions by Engine</h2>
                      <div class="col-md-6">
-                        <form id="request" class="main_form" action="/Mini-Data-Viz-Project/result.php">
+                        <form id="request" class="main_form" action="Model.py">
                            <div class="row">
                               <div class="col-md-12">
-                                 <input id="input" name="input" class="contactus1" placeholder="Keywords" type="text">
+                                 <input class="contactus1" placeholder="Keywords" type="type" Message="Name">
                               </div>
-                              <div class="col-md-12" padding-top="5px">
-                                 <button class="send_btn" type="submit" onclick="submitForm()">Submit</button>
+                              <div class="col-md-12">
+                                 <button class="send_btn">Submit</button>
                               </div>
                            </div>
                         </form>
                      </div>
-                     <div class="col-md-6">
-                        <?php
-                        // Start of Python script
-                        $python = <<<PYTHON
-                        import pandas as pd
-                        df = pd.read_csv('2023-04-14-job-search/Clean_Data/combined_data_final.csv')
-                        import numpy as np
-                        import pandas as pd
-                        import re
-                        import time
-                        from datasketch import MinHash, MinHashLSHForest
-                        
-                        def preprocess(text):
-                            text = re.sub(r'http\S+', '', text)
-                            text = re.sub(r'[^\w\s]','',text)
-                            text = re.sub(r'\s\s+',' ',text)
-                            text = text.strip()
-                            tokens = text.lower()
-                            tokens = tokens.split()
-                            return tokens
-                        
-                        permutations = 128
-                        
-                        def get_forest(data, perms):
-                            start_time = time.time()
-                            minhash = []
-                            for text in data['text']:
-                                tokens = preprocess(text)
-                                m = MinHash(num_perm=perms)
-                                for s in tokens:
-                                    m.update(s.encode('utf8'))
-                                minhash.append(m) 
-                            forest = MinHashLSHForest(num_perm=perms)
-                            for i,m in enumerate(minhash):
-                                forest.add(i,m)  
-                            forest.index()
-                            print(' It took %s seconds to build forest.' %(time.time()-start_time))
-                            return forest
-                        
-                        def predict(text, database, perms, num_results, forest):
-                            start_time = time.time()
-                            tokens = preprocess(text)
-                            m = MinHash(num_perm=perms)
-                            for s in tokens:
-                                m.update(s.encode('utf8'))  
-                            idx_array = np.array(forest.query(m, num_results))
-                            if len(idx_array) == 0:
-                                return None
-                            result = database.iloc[idx_array]
-                            result = result[['title', 'company_name', 'location', 'via', 'description', 
-                                             'detected_extensions.schedule_type', 'detected_extensions.work_from_home',
-                                             'detected_extensions.posted_at', 'detected_extensions.salary',
-                                             'Qualifications', 'Responsibilities', 'Benefits'
-                                             ]]
-                            result.columns = ['Job Title', 'Company Name', 'Location', 'Platform', 'Description',
-                                              'Schedule Type', 'Work from Home', 'Posted at', 'Salary',
-                                              'Qualifications', 'Responsibilities', 'Benefits']
-                            
-                            print(' It took %s seconds to query forest.' %(time.time()-start_time))
-                            return result
-                        
-                        df['Responsibilities'] = df['Responsibilities'].fillna('')
-                        df['Benefits'] = df['Benefits'].fillna('')
-                        df['detected_extensions.schedule_type'] = df['detected_extensions.schedule_type'].fillna('')
-                        df['detected_extensions.work_from_home'] = df['detected_extensions.work_from_home'].fillna('')
-                        df['detected_extensions.posted_at'] = df['detected_extensions.posted_at'].fillna('')
-                        df['detected_extensions.salary'] = df['detected_extensions.salary'].fillna('')
-                        db = df
-                        db['text'] = df['title'] + ' ' + df['company_name'] + ' ' + df['location'] + ' ' + df['description'] + ' ' + df['Qualifications'] + ' ' + df['Responsibilities'] + ' ' + df['Benefits']
-                        forest = get_forest(db, permutations)
-                        
-                        num_recommendations = 5;
-                        $title = 'Data Analyst in DC';
-                        $result = predict($title, $db, $permutations, $num_recommendations, $forest);
-                        
-                        print('\n Top Recommendation(s) is(are) \n', result)
-                        PYTHON;
-                        
-                        // Execute the Python script
-                        $output = shell_exec("python -c '$python'");
-                        
-                        // Output the result
-                        echo $output;
-                        ?>
-                     </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-   </div>  
-      <!-- End Modem Embed-->
-      <!-- blog -->
-      <div class="blog">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="blog_box">
-                     <figure><img src="images/Blog_img1.png" alt="#"/></figure>
-                     <h3>Seo marking</h3>
-                     <a class="read_more" href="#">Read More</a>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="blog_box">
-                     <figure><img src="images/Blog_img2.png" alt="#"/></figure>
-                     <h3>Seo marking</h3>
-                     <a class="read_more" href="#">Read More</a>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="blog_box">
-                     <figure><img src="images/Blog_img3.png" alt="#"/></figure>
-                     <h3>Seo marking</h3>
-                     <a class="read_more" href="#">Read More</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- blog -->
+      </div> 
+      <!-- End Model Embed-->
+      
       <!--  footer -->
       <footer>
          <div class="footer">
             <div class="container">
                <div class="row">
                   <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                     <img class="logo1" src="images/logo1.png" alt="#"/>
+                     <img class="logo1" src="images/Georgetown_logo_white.png" alt="#"/>
                      <ul class="about_us">
-                        <li>dolor sit amet, consectetur<br> magna aliqua. Ut enim ad <br>minim veniam, <br> quisdotempor incididunt r</li>
+                        <li><p style="font-size:20px;">Georgetown University</p>The Graduate School<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp of Arts & Sciences<br>Data Science and Analytics</li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" style="left:+5%">
+                     <h3>Home</h3>
+                     <ul class="link_menu">
+                        <li><a href="index.html#introduction">Introduction</a></li>
+                        <li><a href="index.html#data">About Data</a></li>
+                        <li><a href="index.html#map">About Map</a></li>
+                        <li><a href="index.html#analysis">Map Analysis</a></li>
+                        <li><a href="index.html#explore">Exploration</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" style="left:+1%">
+                     <h3>Analytics</h3>
+                     <ul class="link_menu">
+                        <li><a href="Analytics.html#job title">Job Tittle</a></li>
+                        <li><a href="Analytics.html#diff">Differentiation</a></li>
+                        <li><a href="Analytics.html#channel">Channels/Platforms</a></li>
                      </ul>
                   </div>
                   <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                     <h3>Useful Link</h3>
+                     <h3>Methodologies</h3>
                      <ul class="link_menu">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">About services</a></li>
-                        <li><a href="#">About Departments</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="Method.html">Data</a></li>
+                        <li><a href="Method.html">Method</a></li>
+                        <li><a href="Method.html">Code</a></li>
+                        <li><a href="Method.html">Reference</a></li>
                      </ul>
-                  </div>
-                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                     <h3>The Services</h3>
-                     <ul class="link_menu">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">About services</a></li>
-                        <li><a href="#">About Departments</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                     </ul>
-                  </div>
-                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                     <h3>Contact Us</h3>
-                     <ul class="link_menu">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">About services</a></li>
-                        <li><a href="#">About Departments</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                     </ul>
-                  </div>
-                  <div class="col-md-8 offset-md-4 ">
-                     <form class="bottom_form">
-                        <h3>Newsletter</h3>
-                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
-                        <button class="sub_btn">subscribe</button>
-                     </form>
                   </div>
                </div>
             </div>
