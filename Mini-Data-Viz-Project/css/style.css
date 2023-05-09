@@ -66,9 +66,8 @@ tr:nth-child(even) {
      border-collapse: collapse;
      margin: 0;
      padding: 0;
-     width: 75%;
+     width: 80%;
      table-layout: auto;
-   
    }
    
    table caption {
