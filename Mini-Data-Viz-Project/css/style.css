@@ -49,6 +49,51 @@ iframe{
      border: none;
 }
 
+tr:nth-child(even) {
+     background-color: rgba(251, 251, 246, 0.3);
+   }
+   
+   tr:nth-child(odd) {
+     background-color: rgba(251, 251, 246, 0.3);
+   }
+   
+   tr:hover {
+     background-color: rgba(252, 252, 230, 0.691);
+   }
+
+   table {
+     border: 1px solid #ccc;
+     border-collapse: collapse;
+     margin: 0;
+     padding: 0;
+     width: 75%;
+     table-layout: auto;
+   
+   }
+   
+   table caption {
+     font-size: 1.5em;
+     margin: .5em 0 .75em;
+   }
+   
+   table tr {
+     background-color: #f8f8f8;
+     border: 3px solid #ddd;
+     padding: .35em;
+   }
+   
+   table th,
+   table td {
+     padding: .625em;
+     text-align: left;
+   }
+   
+   table th {
+     font-size: 1em;
+     letter-spacing: .1em;
+     text-transform: uppercase;
+   }
+
 a {
      color: #1f1f1f;
      text-decoration: none !important;
