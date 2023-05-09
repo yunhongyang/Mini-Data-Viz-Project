@@ -1,6 +1,8 @@
 
 
 # SYNC LOCAL VERSION OF WEBSITE TO GU-DOMAINS SERVER
+rsync -alvr --delete Mini-Data-Viz-Project yunhong1@gtown.reclaimhosting.com:/home/yunhong1/public_html/
+rsync -alvr --delete Code yunhong1@gtown.reclaimhosting.com:/home/yunhong1/public_html/
 rsync -alvr --delete 2023-04-14-job-search yunhong1@gtown.reclaimhosting.com:/home/yunhong1/public_html/
 
 # PUSH GIT REPO TO THE CLOUD FOR BACKUP
