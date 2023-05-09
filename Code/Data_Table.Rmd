@@ -1,0 +1,24 @@
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+## Import Package
+library(DT)
+library(dplyr)
+## Import Data
+df <- read.csv("../2023-04-14-job-search/Clean_Data/combined_data_final.csv")
+## Edit Data
+### Change Column Names
+colnames(df) <- c('Job Title', 'Company Name', 'Location', 'Via', 'Job Description',
+       'Schedule Type', 'Work from Home', 'Posted at', 'Salary', 'Search Parameters', 'Qualifications',
+       'Responsibilities', 'Benefits')
+
+### Render Table
+datatable(df, class = 'hover stripe', filter = 'top', extension = 'Buttons', width = 1000, height="500px",
+          caption = htmltools::tags$caption(style = 'caption-side: Top; text-align: left;',
+          'Table 1: ', htmltools::em('This table is composed of all json file and cleaned.')),
+          options = list(dom = '<"top"Bf>rt<"bottom"lip><"clear">', autoWidth = TRUE, scrollX = TRUE,
+                         lengthMenu = list(c(3,25,50), c(3,25,50)),
+                         buttons = list('copy', 'print', 
+                                   list(extend = 'collection', buttons = c('csv', 'excel', 'pdf'), 
+                                        text = 'Download'))
+          ) 
+ )
+```
